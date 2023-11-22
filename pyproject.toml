@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "eminentai"
+version = "0.1.0"
+description = ""
+authors = ["axelkirken <axel.kierkegaard@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+openai = "^1.3.4"
+selenium = "^4.15.2"
+webdriver-manager = "^4.0.1"
+requests = "^2.31.0"
+pillow = "^10.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
